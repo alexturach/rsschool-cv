@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Curriculum vitae</title>
+  <meta name="description" content="CV#3. CV. Cross-Check">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Cabin%20Sketch' rel='stylesheet'>
+  <link rel="stylesheet" type="text/css" href="reset.css">
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="head-container">
+      <a href="index.html" id="name"><img src="logo.webp" alt="Logo" width="74" height="74"></a>
+      <ul class="social-container">
+        <li class="social">
+          <a href="https://github.com/alexturach"><i class="fab fa-brands fa-github"></i></a>
+        </li>
+        <li class="social">
+          <a href="https://t.me/alexturach"><i class="fab fa-brands fa-telegram"></i></a>
+        </li>
+
+        <li class="social">
+          <a href="mailto:turach.ad@gmail.com"><i class="fab fa-google-plus-square"></i></a>
+        </li>
+      </ul>
+    </div>
+    <div class="menu-box">
+      <nav class="menu">
+        <ul class="menu-container">
+          <li class="menu-item">
+            <a href="#contacts">Contacts</a>
+          </li>
+          <li class="menu-item">
+            <a href="#aboutMe">About me</a>
+          </li>
+          <li class="menu-item">
+            <a href="#skills">Skills</a>
+          </li>
+          <li class="menu-item">
+            <a href="#code">Code</a>
+          </li>
+          <li class="menu-item">
+            <a href="#education">Education</a>
+          </li>
+          <li class="menu-item">
+            <a href="#english">English</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="main-img">
+      <h1 style="font-family: 'Cabin Sketch', sans-serif;">Alex Turach</h1>
+    </div>
+  </header>
+  <main>
+    <section id="contacts">
+      <div class="section-name">
+        <h2>Contacts</h2>
+      </div>
+      <ul>
+        <li><strong>E-mail:</strong> <a href="mailto:turach.ad@gmail.com"> turach.ad@gmail.com</a></li>
+        <li><strong>Telegram:</strong> <a href="https://t.me/alexturach" target="_blank"> @alexturach</a></li>
+        <li><strong>Github:</strong> <a href="https://github.com/alexturach" target="_blank">alexturach</a></li>
+      </ul>
+    </section>
+    <section id="aboutMe">
+      <div class="section-name">
+        <h2>About Me</h2>
+      </div>
+      <p>My name is Alexander. I am a beginner frontend developer. In my free time from programming, I read literature
+        on psychology and play the guitar.
+        I may not be that experienced, but I am someone you will want to get to know and work with.</p>
+    </section>
+    <section id="skills">
+      <div class="section-name">
+        <h2>Skills</h2>
+      </div>
+      <ul class="list">
+        <li><abbr title="HyperText Markup Language">HTML5</abbr></li>
+        <li><abbr title="Cascading Style Sheets">CSS3</abbr></li>
+        <li>JavaScript</li>
+        <li>Git, GitHub</li>
+      </ul>
+    </section>
+    <section id="code">
+      <div class="section-name">
+        <h2>Code</h2>
+      </div>
+      <pre>
+          <code>
+      window.onload = function () {
+        fnc();
+      }
+      function fnc (){
+        var a = prompt("1+1=?", 0);
+        if (a==2) {
+          var yes = confirm ("You are right! Next question?");
+          if (yes==true) {
+            factor();
+          }
+        }
+        else if (a==null)  {confirm.close();}
+        else  {
+          var no = confirm ("Wrong answer. Try again?");
+          if (no==true) {
+            fnc();
+          }
+        }
+      }
+    </code>
+    </pre>
+    </section>
+    <section id="education">
+      <div class="section-name">
+        <h2>Education</h2>
+      </div>
+      <p>Yanka Kupala State University of Grodno (2014-2018 yy.)
+      </p>
+      <ul class="list">
+        <li>Cisco Cybersecurity Essentials Belarus (2014 y.)
+        </li>
+        <li>Cisco IT Essentials: PC Hardware and Software (2015 y.)
+        </li>
+        <li>HTP training course “Website development using HTML, CSS and JavaScript by Instinctools” (2018 y.)
+        </li>
+      </ul>
+    </section>
+    <section id="english">
+      <div class="section-name">
+        <h2>English</h2>
+      </div>
+      <p>B1</p>
+    </section>
+  </main>
+  <footer style="font-size: 1.5vw;
+  margin: 5% 15%;
+  line-height: 2;">
+    <hr>
+    <p>Copyright © 2022, <a href="https://github.com/alexturach" target="_blank">alexturach</a>
+    </p>
+    <p>
+      <a href="https://rs.school/js/" target="_blank">
+        <img src="https://rs.school/images/rs_school_js.svg" alt="rss school" width="100"></a>
+    </p>
+  </footer>
+</body>
+</html>
